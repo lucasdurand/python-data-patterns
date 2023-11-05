@@ -5,7 +5,15 @@ name = "pypi"
 
 [packages]
 coiled = "*"
-dask = {extras = ["complete"], version = "*"}
+dask = "*"
+pandas = "*"
+ibis-framework = {extras = ["duckdb"], version = "*"}
+duckdb = "*"
+sqlalchemy = "*"
+pyspark = "*"
+fugue = {extras = ["sql"], version = "*"}
+fugue-jupyter = "*"
+jupyterlab = "*"
 
 [dev-packages]
 

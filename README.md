@@ -9,6 +9,7 @@
 ## Contents
 
 ### DataFrames, single-machine
+
 * `pandas`
 * `duckdb`
 * `polars`
@@ -16,6 +17,10 @@
 * `DataFusion` https://arrow.apache.org/datafusion/user-guide/faq.html#how-does-datafusion-compare-with-xyz (more for devs, not data people)
 
 #### The Winner
+
+https://motherduck.com/blog/duckdb-versus-pandas-versus-polars/
+
+https://github.com/prrao87/duckdb-study/blob/main/perf_study/polars_generate.py
 
 * DataFusion is great if you're using Rust ...
 * Polars is much faster than Pandas, but much less stable now
@@ -28,6 +33,12 @@
 * `modin` (on ray)
 
 #### The Winner
+
+https://censius.ai/blogs/apache-spark-vs-dask-vs-pandas#blogpost-toc-5
+
+https://www.datarevenue.com/en-blog/pandas-vs-dask-vs-vaex-vs-modin-vs-rapids-vs-ray
+
+![Alt text](image-1.png)
 
 * Modin + Dask both take the *Pandas at scale* approach
 * Modin is neat mostly because it runs on Ray, which is it's own optimization layer for distributed compute that's become somewhat popular
@@ -49,6 +60,10 @@ SqlAlchemy vs. Ibis vs. Fugue
 * SqlAlchemy is not for analytics, great for a webpage backend
 * https://fugue-tutorials.readthedocs.io/tutorials/integrations/backends/ibis.html
 
+
+### Conclusion
+
+**Premature optimization is the root of all evil**
 
 ## Notes
 
