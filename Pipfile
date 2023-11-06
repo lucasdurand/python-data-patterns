@@ -14,6 +14,8 @@ pyspark = "*"
 fugue = {extras = ["sql"], version = "*"}
 fugue-jupyter = "*"
 jupyterlab = "*"
+polars = "*"
+buckaroo = "*"
 
 [dev-packages]
 

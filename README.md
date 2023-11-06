@@ -10,6 +10,8 @@
 
 ### DataFrames, single-machine
 
+Let's look at this data: https://www.kaggle.com/datasets/peopledatalabssf/free-7-million-company-dataset/
+
 * `pandas`
 * `duckdb`
 * `polars`
